@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+
+  <!-- BACKGROUND VIDEO -->
+    
+<video poster="img/poster.png" autoplay="true" loop preload="metadata" id="dogs">
+      <source src="assets/dogonthebeach.mp4" type="video/mp4">
+      <source src="assets/dogonthebeach.webm" type="video/webm">
+      Your browser does not support the video tag.
+</video>
+
+
+
+      <!-- NAVBAR -->
+      <div class="container-fluid">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a class="navbar-brand mr-auto" href="#"><img src="img/UPS.png" alt="LOGO"></a>
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link active" href="#">Log in <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sign Up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<!-- FORM -->
+
+<div class="container form">
+  <h1>Log in!</h1>
+  <form>
+    <div class="form-group">
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="username">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="password">
+       <label for="formGroupExampleInput">Forgot password?</label>
+    </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+      <p class="bar"><img src="img/bar.png" alt="">or connect with<img src="img/bar.png" alt=""></p>
+      <button type="button" class="facebook"><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></button>
+      <button type="button" class="google"><a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i>
+Google</a></button>
+  </form>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2017 UPS | Terms and Conditions | About Us | Help | Cookie Policy | Contact US</p>
+</footer>
+
+
+<script src="js/video.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
